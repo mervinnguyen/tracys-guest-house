@@ -40,8 +40,9 @@ External image URLs can change. To self-host photos you own or have permission t
 
 ## Search visibility
 
-- Once the final domain is selected, use a single preferred URL and configure redirects
-  from any old domain. Add a matching absolute canonical URL in the page head.
+- The canonical and social preview URLs currently point to
+  `https://mervinnguyen.github.io/tracys-guest-house/`. When moving to a final
+  domain, update both URLs in the page head and configure redirects from any old domain.
 - Verify the final site in [Google Search Console](https://search.google.com/search-console)
   and request indexing using URL Inspection. Indexing and search rankings are not guaranteed.
 - Keep the page title, description, property details, photos and Airbnb listing accurate.
