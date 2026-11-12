@@ -35,6 +35,22 @@ External image URLs can change. To self-host photos you own or have permission t
 1. Put the photos in `images/` (for example `living-room.jpg`, `kitchen.jpg`, `bedroom-1.jpg` …). Keep each one around 1600px wide or less and under about 400 KB.
 2. In `index.html`, find the `<figure class="ph …">` blocks and change each `<img src="…">` to `images/<file>.jpg`. Also update the first-look photo above the introduction.
 3. Update each `<figcaption>` so it matches the room shown.
+4. Update the `og:image` URL in the page head to an absolute, publicly accessible
+   URL for an approved photo; social media platforms use it for link previews.
+
+## Search visibility
+
+- Once the final domain is selected, use a single preferred URL and configure redirects
+  from any old domain. Add a matching absolute canonical URL in the page head.
+- Verify the final site in [Google Search Console](https://search.google.com/search-console)
+  and request indexing using URL Inspection. Indexing and search rankings are not guaranteed.
+- Keep the page title, description, property details, photos and Airbnb listing accurate.
+  Update the social preview image when an approved, self-hosted photo is available.
+- For a single-page site, a sitemap is optional. If the site grows, create one with
+  absolute URLs for the final domain and submit it in Search Console.
+- Google's vacation rental rich results have additional eligibility and integration
+  requirements; see its [vacation rental documentation](https://developers.google.com/search/docs/appearance/structured-data/vacation-rental)
+  before adding that markup.
 
 ## Editing content
 
