@@ -33,7 +33,7 @@ The gallery currently hotlinks the Airbnb listing photos and shows illustrated f
 External image URLs can change. To self-host photos you own or have permission to use (recommended):
 
 1. Put the photos in `images/` (for example `living-room.jpg`, `kitchen.jpg`, `bedroom-1.jpg` …). Keep each one around 1600px wide or less and under about 400 KB.
-2. In `index.html`, find the `<figure class="ph …">` blocks and change each `<img src="…">` to `images/<file>.jpg`.
+2. In `index.html`, find the `<figure class="ph …">` blocks and change each `<img src="…">` to `images/<file>.jpg`. Also update the first-look photo above the introduction.
 3. Update each `<figcaption>` so it matches the room shown.
 
 ## Editing content
