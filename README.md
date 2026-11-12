@@ -30,7 +30,7 @@ python3 -m http.server 8000
 ## Photos
 
 The gallery currently hotlinks the Airbnb listing photos and shows illustrated fallback tiles if they fail to load.
-To self-host the photos (recommended):
+External image URLs can change. To self-host photos you own or have permission to use (recommended):
 
 1. Put the photos in `images/` (for example `living-room.jpg`, `kitchen.jpg`, `bedroom-1.jpg` …). Keep each one around 1600px wide or less and under about 400 KB.
 2. In `index.html`, find the `<figure class="ph …">` blocks and change each `<img src="…">` to `images/<file>.jpg`.
@@ -47,3 +47,8 @@ To self-host the photos (recommended):
 | Review scores & themes | `cats` and `themes` arrays in the `<script>` |
 | Host blurb | `<section class="hosts">` |
 | Check-in / rules | `<section class="stay">` |
+| Common questions | `<section class="faq">` |
+
+Review the listing regularly for changes to ratings, review counts, drive times, fees,
+house rules, and availability. Confirm accessibility details with the host rather than
+making assumptions. Keep the gallery captions aligned with the actual photos.
